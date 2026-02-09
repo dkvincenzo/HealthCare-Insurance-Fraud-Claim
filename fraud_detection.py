@@ -7,6 +7,7 @@ import numpy as np
 import pandas as pd
 from datetime import datetime, timedelta
 import warnings
+import streamlit as st
 warnings.filterwarnings('ignore')
 
 # ML & Evaluation
@@ -444,3 +445,4 @@ if __name__ == "__main__":
     print("  - fraud_detection_evaluation.png")
     print("  - shap_summary.png")
     print("  - shap_waterfall_example.png")
+
